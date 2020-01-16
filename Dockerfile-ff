@@ -24,8 +24,7 @@ RUN \
 	wget \
 	xz-utils && \
  echo "**** install F i r e f o x ****" && \
- RUN apt update && apt install -yy firefox 
-
+ RUN apt update && apt install -yy firefox \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
