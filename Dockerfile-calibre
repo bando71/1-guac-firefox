@@ -22,6 +22,7 @@ RUN \
 	python-xdg \
 	ttf-wqy-zenhei \
 	wget \
+	firefox \
 	xz-utils && \
  echo "**** install calibre ****" && \
  mkdir -p \
